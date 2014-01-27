@@ -17,6 +17,9 @@ public class Excercise31 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        float f = 3123.8413F;
+        short s = (short)f;
+        System.out.println(s);
     }
     
 }
