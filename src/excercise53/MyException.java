@@ -17,9 +17,9 @@ public class MyException extends Exception {
      * message.
      */
     public MyException() {
-        System.out.println("Jestę wyjątkię");
+        System.out.println("Jestę wyjątkię, robię porządki");
     }
-
+    
     /**
      * Constructs an instance of <code>MyException</code> with the specified
      * detail message.
@@ -28,5 +28,9 @@ public class MyException extends Exception {
      */
     public MyException(String msg) {
         super(msg);
+    }
+    
+    public void print(){
+        System.out.println("Wystąpił mój wyjątek");
     }
 }

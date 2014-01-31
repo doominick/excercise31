@@ -21,6 +21,7 @@ public class Propagate {
         }
         catch(MyException e){
             System.out.println("Zlapany");
+            e.print();
         }
         finally{
             System.out.println("Sprzątamy teraz");
